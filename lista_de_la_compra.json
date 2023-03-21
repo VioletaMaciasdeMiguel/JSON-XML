@@ -1,0 +1,154 @@
+{
+    "listaCompra" : {
+        "supermercados" : [
+            {
+                "id" : 1,
+                "nombre" : "Mercadona",
+                "productos" : [
+                    {
+                        "id" : 10,
+                        "nombre" : "Tomate",
+                        "precio" : 1.5,
+                        "seleccionado" : false,
+                        "unidades" : 5,
+                        "medida" : "kilo",
+                        "habitual" : true
+                    },
+                    {
+                        "id" : 11,
+                        "nombre" : "Pan",
+                        "precio" : 1,
+                        "seleccionado" : false,
+                        "unidades" : 2,
+                        "medida" : "barra",
+                        "habitual" : true
+                    },
+                    {
+                        "id" : 12,
+                        "nombre" : "Leche",
+                        "precio" : 0.5,
+                        "seleccionado" : false,
+                        "unidades" : 1,
+                        "medida" : "tetra brik",
+                        "habitual" : false
+                    },
+                    {
+                        "id" : 13,
+                        "nombre" : "Alcachofas",
+                        "precio" : 4,
+                        "seleccionado" : false,
+                        "unidades" : 2,
+                        "medida" : "kilo",
+                        "habitual" : true
+                    },
+                    {
+                        "id" : 14,
+                        "nombre" : "Lechuga",
+                        "precio" : 4,
+                        "seleccionado" : false,
+                        "unidades" : 1,
+                        "medida" : "3 cogollos",
+                        "habitual" : true
+                    }
+                ],
+                "ofertas" : [
+                    {
+                        "pack1" : {
+                            "id" : 15,
+                            "idProductos" : [10, 13, 14],
+                            "nombre" : "frutas",
+                            "vigencia" : ["1/1/2023 0:00 a.m.", "1/12/2024 8:00 a.m."],
+                            "precio":5,
+                            "seleccionado" : false,
+                            "unidades" : 1
+                        },
+                        "pack2" : {
+                            "id" : 16,
+                            "idProductos" : [11, 12],
+                            "nombre" : "imprescindibles",
+                            "seleccionado" : false,
+                            "unidades" : 1,
+                            "vigencia" : ["21/7/2021 0:00 a.m.", "1/9/2023 8:00 a.m."],
+                            "precio": 7
+                        }
+                    }
+                ]
+           
+            },
+            {
+                "id" : 2,
+                "nombre" : "Aldi",
+                "productos" : [
+                    {
+                        "id" : 20,
+                        "nombre" : "Huevos",
+                        "precio" : 3,
+                        "seleccionado" : true,
+                        "unidades" : 2,
+                        "medida" : "Docena",
+                        "habitual" : true
+                    },
+                    {
+                        "id" : 21,
+                        "nombre" : "Colonia",
+                        "precio" : 8,
+                        "seleccionado" : false,
+                        "unidades" : 1,
+                        "medida" : "100 ml",
+                        "habitual" : true
+                    },
+                    {
+                        "id" : 22,
+                        "nombre" : "Gel de ducha",
+                        "precio" : 2,
+                        "seleccionado" : false,
+                        "unidades" : 1,
+                        "medida" : "500 ml",
+                        "habitual" : true
+                    },
+                    {
+                        "id" : 23,
+                        "nombre" : "Yogurt",
+                        "precio" : 4,
+                        "seleccionado" : false,
+                        "unidades" : 2,
+                        "medida" : "Pack de 6",
+                        "habitual" : false
+                    },
+                    {
+                        "id" : 24,
+                        "nombre" : "Pasta de dientes",
+                        "precio" : 1,
+                        "seleccionado" : false,
+                        "unidades" : 1,
+                        "medida" : "Barra",
+                        "habitual" : true
+                    }
+                ],
+                "ofertas" : [
+                    {
+                        "pack1" : {
+                            "id" : 25,
+                            "idProductos" : [21, 22, 24],
+                            "nombre" : "Higiene siempre limpio",
+                            "vigencia" : ["8/4/2021 9:00 a.m.", "5/12/2023 8:00 a.m."],
+                            "precio":5,
+                            "seleccionado" : false,
+                            "unidades" : 1
+                        },
+                        "pack2" : {
+                            "id" : 26,
+                            "idProductos" : [23, 23],
+                            "nombre" : "Para Yogurear",
+                            "seleccionado" : false,
+                            "unidades" : 1,
+                            "vigencia" : ["9/12/2023 1:00 a.m.", "15/10/2024 6:00 a.m."],
+                            "precio": 7
+                        }
+                    }
+                ]
+           
+            }
+        ]
+    }
+}

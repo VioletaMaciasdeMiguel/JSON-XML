@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<lista_de_la_compra>
+    <supermercado>
+        <id>1</id>
+        <nombre>Mercadona</nombre>
+        <producto>           
+            <id>10</id>
+            <nombre>Tomate</nombre>  
+            <precio>1.5</precio>
+            <seleccionado>false</seleccionado>
+            <unidades>5</unidades>
+            <medida>kilo</medida>
+            <habitual>true</habitual>
+        </producto> 
+        <producto>           
+            <id>11</id>
+            <nombre>Pan</nombre>  
+            <precio>1</precio>
+            <seleccionado>false</seleccionado>
+            <unidades>2</unidades>
+            <medida>barra</medida>
+            <habitual>true</habitual>
+        </producto> 
+        <producto>           
+            <id>12</id>
+            <nombre>Leche</nombre>  
+            <precio>0.5</precio>
+            <seleccionado>false</seleccionado>
+            <unidades>1</unidades>
+            <medida>tetra brik</medida>
+            <habitual>false</habitual>
+        </producto>
+        <producto>           
+            <id>13</id>
+            <nombre>Alcachofas</nombre>  
+            <precio>4</precio>
+            <seleccionado>false</seleccionado>
+            <unidades>2</unidades>
+            <medida>kilo</medida>
+            <habitual>true</habitual>
+        </producto>  
+        <producto>           
+            <id>14</id>
+            <nombre>Lechuga</nombre>  
+            <precio>4</precio>
+            <seleccionado>false</seleccionado>
+            <unidades>1</unidades>
+            <medida>3 cogollos</medida>
+            <habitual>true</habitual>
+        </producto>   
+        <oferta>
+            <pack>
+                <id>15</id>
+                <id_productos>10, 13, 14</id_productos>
+                <nombre>frutas</nombre>  
+                <vigencia>1/1/2023 0:00 a.m. - 1/12/2024 8:00 a.m.</vigencia>
+                <precio>5</precio>
+                <seleccionado>false</seleccionado>
+                <unidades>1</unidades>
+            </pack>
+            <pack>
+                <id>16</id>
+                <id_productos>11, 12</id_productos>
+                <nombre>imprescindibles</nombre>  
+                <vigencia>21/7/2021 0:00 a.m. - 1/9/2023 8:00 a.m.</vigencia>
+                <precio>7</precio>
+                <seleccionado>false</seleccionado>
+                <unidades>1</unidades>
+            </pack>
+        </oferta>
+    </supermercado>
+    <supermercado>
+        <id>2</id>
+        <nombre>Aldi</nombre>
+        <producto>           
+            <id>20</id>
+            <nombre>Huevos</nombre>  
+            <precio>3</precio>
+            <seleccionado>true</seleccionado>
+            <unidades>2</unidades>
+            <medida>Docena</medida>
+            <habitual>true</habitual>
+        </producto> 
+        <producto>          
+            <id>21</id>
+            <nombre>Colonia</nombre>  
+            <precio>8</precio>
+            <seleccionado>false</seleccionado>
+            <unidades>1</unidades>
+            <medida>100 ml</medida>
+            <habitual>true</habitual>
+        </producto> 
+        <producto>           
+            <id>22</id>
+            <nombre>Gel de ducha</nombre>  
+            <precio>2</precio>
+            <seleccionado>false</seleccionado>
+            <unidades>1</unidades>
+            <medida>500 ml</medida>
+            <habitual>true</habitual>
+        </producto>
+        <producto>           
+            <id>23</id>
+            <nombre>Yogurt</nombre>  
+            <precio>4</precio>
+            <seleccionado>false</seleccionado>
+            <unidades>2</unidades>
+            <medida>Pack de 6</medida>
+            <habitual>false</habitual>
+        </producto>  
+        <producto>           
+            <id>24</id>
+            <nombre>Pasta de dientes</nombre>  
+            <precio>1</precio>
+            <seleccionado>false</seleccionado>
+            <unidades>1</unidades>
+            <medida>barra</medida>
+            <habitual>true</habitual>
+        </producto>   
+        <oferta>
+            <pack>
+                <id>25</id>
+                <id_productos>21, 22, 24</id_productos>
+                <nombre>Higiene siempre limpio</nombre>  
+                <vigencia>8/4/2021 9:00 a.m. - 5/12/2023 8:00 a.m.</vigencia>
+                <precio>5</precio>
+                <seleccionado>false</seleccionado>
+                <unidades>1</unidades>
+            </pack>
+            <pack>
+                <id>26</id>
+                <id_productos>23, 23</id_productos>
+                <nombre>Para Yogurear</nombre>  
+                <vigencia>9/12/2023 1:00 a.m. - 15/10/2024 6:00 a.m.</vigencia>
+                <precio>7</precio>
+                <seleccionado>false</seleccionado>
+                <unidades>1</unidades>
+            </pack>
+        </oferta>
+    </supermercado>
+</lista_de_la_compra>   
